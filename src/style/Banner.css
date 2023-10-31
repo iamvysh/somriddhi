@@ -1,0 +1,22 @@
+.banner_image{
+    /* display: flex;
+width: 1440px;
+padding: 40px 0px 16px 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 12px; */
+
+width: 860px;
+height: 413.22px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+/* .banner_image img
+{
+    
+} */

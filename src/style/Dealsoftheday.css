@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.main_deals_div{
+    width: 100%;
+    height: 374px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -40px;
+    
+}
+.dealheading{
+    width: 860px;
+    height: 36px;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+}
+.line{
+    width: 76px;
+height: 3px;
+background: #F01C21;
+margin-top: 7px;
+}
+.heading{
+    color: #091431;
+    font-family: 'Roboto', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.5px;
+}
+.card_container{
+    width: 860px;
+    height: 170px;
+    /* background-color: aliceblue; */
+    display: flex;
+    column-gap: 20px;
+    border-radius: 10px;
+}
+.cards{
+    width: 200px;
+    height: 100%;
+    /* background-color: yellow; */
+    border-radius: 10px;
+/* border: 1px solid #ECECEC; */
+background: #FFF;
+}
+.card_section{
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.card_section_top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    row-gap: 13px;
+
+
+    
+    
+
+}
+.text_card{
+    color: #091431;
+text-align: center;
+font-family: Metropolis;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 14px; 
+/* margin-top: 5px; */
+
+
+/* 116.667% */
+}
+.card_section_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 8px;
+
+}
+.offer_text{
+    color: #3BA615;
+text-align: center;
+font-family: Metropolis;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.grabbutton{
+    display: flex;
+width: 148px;
+padding: 12px 16px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 8px;
+background: #F01C21;
+color:#FFFFFF ;
+border: none;
+
+}

@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body{
+    background-color: #D9D9D9;
+}
+.popularproduct{
+    display: flex;
+width: 100%;
+/* padding: 40px 0px; */
+flex-direction: column;
+align-items: center;
+
+}
+.tabs{
+
+    display: flex;
+padding: 12px;
+justify-content: center;
+align-items: center;
+gap: 9px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.coupon{
+    color: #F01C21;
+    font-family: 'Roboto', sans-serif;font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1px;
+}
+.ending{
+    color: #091431;
+    font-family: 'Roboto', sans-serif;font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1px;
+}
+.tab{
+    display: flex;
+padding: 12px;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+background: #FFF;
+box-shadow: 4px 4px 60px 0px rgba(0, 0, 0, 0.04);
+}
+.tab1{
+    display: flex;
+padding: 12px;
+justify-content: center;
+align-items: center;
+gap: 6px;
+}
+.card_div{
+    width: 860px;
+    height: 501px;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    row-gap: 25px;
+}
+.card_upper_div{
+    display: flex;
+    column-gap: 20px;
+    height: 238px;
+
+}
+.card_lower_div{
+    display: flex;
+    column-gap: 20px;
+    height: 238px;
+
+}
+.card{
+    width: 200px;
+    height: 238px;
+    border-radius: 10px;
+border: 1px solid #ECECEC;
+
+background: #FFF;
+    
+     
+    
+}
+.offer{
+    width: 155px;
+    height: 132px;
+    /* background-color: cadetblue; */
+    
+    margin: 16px 23px 39px 22px;
+}
+.offer_button{
+    display: flex;
+width: 148px;
+padding: 12px 16px;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+background: #F01C21;
+border: none;
+color: #FFFFFF;
+margin:0 23px 15px 22px;
+}
+.offer_upper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.card_content{
+    color: #3BA615;
+text-align: center;
+font-family: 'Roboto', sans-serif;font-size: 16px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: 2px;
+line-height: 20px; /* 125% */
+}
+.card_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px 0px ;
+}
+.card_lower_content{
+    color: #b6b6b6;
+    /* text-align: center;
+    font-family: Metropolis;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px; 
+     */
+ text-align: center;
+ font-family: 'Roboto', sans-serif;
+ font-size: 12px;
+ letter-spacing: 1px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 125% */
+}
+.rectangles{
+    margin: 40px 0;
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: center;
+}
+.rectangle1{
+   width:  48px;
+height: 8px;
+border-radius: 4px;
+background: #091431;
+border: none;
+}
+.rectagle2{
+
+width: 20px;
+height: 8px;
+border-radius: 4px;
+background: #ebe9e9;
+margin: 0 6px;
+}
