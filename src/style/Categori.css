@@ -1,0 +1,92 @@
+@import url('https://fonts.cdnfonts.com/css/metropolis-2');
+
+.category_main_div{
+    height: 496px;
+    width: 100%;
+    display: flex;
+padding: 40px 0px 64px 0px;
+justify-content: center;
+align-items: flex-start;
+/* background-color: #DFDFDF; */
+gap: 40px;
+}
+.category_sub_div{
+    width: 860px;
+    height: 100%;
+    background-color: #FFFFFF;
+
+    display: flex;
+}
+.category_sub_left_div{
+    width: 367px;
+    /* background-color: bisque; */
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    background: url("../assets/fashionlady.png"), lightgray -133.766px -75.512px / 172.897% 122.112%  no-repeat;
+    
+}
+.category_sub_right_div{
+    width: 567px;    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0px 16px;
+    align-items: flex-start;
+    margin-left: 8px;
+    row-gap: 8px;
+
+}
+.category_sub_right_upper_div{
+    height: 36px;
+
+}
+.category_text{
+    color: #091431;
+    font-family: 'Metropolis', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.category_sub_right_lower_div{
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(7,1fr);
+    gap: 1px; */
+}
+/* td{
+    border: 1px solid #b8b6b6;
+    text-align: center;
+    display: flex;
+padding: 16px 12px;
+justify-content: center;
+align-items: center;
+
+} */
+.table_content{
+    color: #091431;
+text-align: center;
+font-family: 'Metropolis', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+th, td {
+    text-align: left;
+    
+    border: 1px solid #DFDFDF;
+    width: 100px;
+    height: 27px;
+padding: 16px 12px;
+justify-content: center;
+align-items: center;
+flex: 1 0 0;
+color: #091431;
+text-align: center;
+font-family: 'Metropolis', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }

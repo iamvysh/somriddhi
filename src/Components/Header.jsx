@@ -1,12 +1,13 @@
 import React from 'react'
 import Image from "../assets/logo.png"
 import "../style/Header.css"
+import search from "../assets/search.png"
 
 const Header = () => {
 
   return (
     <>
-      <div style={{height:"128px",width:"100%"}}>
+      <div style={{height:"128px"}}>
 
         <div style={{height:"82px",width:"860px",marginLeft:"auto",marginRight:"auto",display:"flex",justifyContent:"space-between",alignItems:"center"}}>
 
@@ -15,7 +16,7 @@ const Header = () => {
             </div>
             <div >
                 
-                <input type="text" className='textfield' placeholder='Search For brand, category, coupon'/>
+                <input type="text" className='textfield' placeholder={`${search}Search For brand, category, coupon`}/>
 
             </div>
             <div className='buttondiv'>

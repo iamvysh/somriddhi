@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/metropolis-2');
+
+
+.Download_main_div{
+    display: flex;
+    width: 100%;
+    padding: 40px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+ 
+    
+
+}
+.Download_subdiv{
+    height: 480px;
+
+    width: 860px;
+    border-radius: 24px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 100%), #F01C21;
+    display: flex;
+    align-items: center;
+    
+    position: relative;
+    
+}
+.Download_subdiv_left{
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+width: 352px;
+height: 220px;
+position: absolute;
+top:130px;
+left: 78px;
+
+}
+.Download_subdiv_left_top{
+    width: 269px;
+    height: 144px;
+    
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.Download_subdiv_left_top_c1{
+    color: #F01C21;
+    font-family: 'Metropolis', sans-serif;
+
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 125% */
+}
+.Download_subdiv_left_top_c2{
+    color: #414141;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.Download_subdiv_left_bottom{
+    
+    display: flex;
+ align-items: flex-start;
+ column-gap: 16px;
+  height: 56px;
+  width: 352    px;
+}
+
+.Download_subdiv_left_bottom img {
+    width: 24px;
+    height: 24px;
+
+}
+.Download_subdiv_left_bottom button {
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    width: 172px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.Download_subdiv_left_bottom t{
+    width: 69px;
+    height: 22px;
+    background-color: blue;
+}
+.Download_subdiv_center{
+width: 144.951px;
+height: 293.619px;
+/* transform: rotate(3deg); */
+flex-shrink: 0;
+position: absolute;
+top: 100px;
+left: 435px;
+/* background: url(../assets//Phone.png), lightgray 50% / cover no-repeat; */
+}
+.Download_subdiv_end{
+    width: 195px;
+height: 395px;
+/* transform: rotate(deg); */
+flex-shrink: 0;
+/* background: url(../assets/Phone2.png) lightgray 50% / cover no-repeat; */
+position: absolute;
+left: 605px;
+top: 117px;
+}

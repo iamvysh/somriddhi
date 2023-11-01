@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/metropolis-2');
+
+.newletter_main{
+    display: flex;
+
+    height: 493px;
+    width: 100%;
+    background-image: linear-gradient(#DADADA,#DADADA40 );
+    /* #DADADA40, #DADADA */
+    padding: 40px 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.main_rectangle{
+    width: 860px;
+height: 400px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 10px solid #FFF;
+background: #FFF;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.sub_rectangle{
+
+    height: 400px;
+    width: 860px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.sub_rectangle_1{
+    border-radius: 10px;
+    height: 400px;
+    width: 420px;
+    background-color: #F5F5F5;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sub_rectangle_2{
+    background-color: #FFFFFF;
+    width: 420px;
+    height: 267px;
+    /* border-radius: 10px; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+
+
+}
+.bag_img{
+    
+    width: 365px;
+height: 365px;
+flex-shrink: 0;
+background: url("../assets/letterpost.png"), #F5F5F5 50%/ cover no-repeat;
+}
+.sub_rectangle2_upper_div{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.main_text_div{
+  width: 258px;
+  height: 80px;
+}
+.sub_text_div{
+    width: 259px;
+    height: 48px;
+}
+.content1{
+    color: #091431;
+    font-family: 'Metropolis', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 125% */
+}
+.content2{
+    color: #908F8F;
+    font-family: 'Metropolis', sans-serif;font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+
+}
+.sub_rectangle2_lower_div{
+    height: 420px;
+    height: 99px;
+    display: flex;
+    flex-direction: column;
+/* width: 420px;
+padding: 16px 20px;
+align-items: flex-start; */
+row-gap: 8px;
+}
+.emaildiv{
+    border-radius: 8px;
+    border: 1px solid #D3D3D3;
+    background: #FFF;
+    display: flex;
+width: 368px;
+height: 47px;
+padding: 16px 20px;
+align-items: flex-start;
+gap: 8px;
+}
+.email_button{
+    height: 123px;
+    width: 148px;
+    
+    color: #FFF;
+    font-family: 'Metropolis', sans-serif;font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+border-radius: 8px;
+background: #F01C21;
+border: none;
+}

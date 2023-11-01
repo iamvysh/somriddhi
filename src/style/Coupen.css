@@ -3,7 +3,8 @@
 .main_coupen_div{
     width:100%;
     height: 480px;
-    background-image: linear-gradient(#97959540, #ffffff);
+    background-image: linear-gradient(#DADADA,#DADADA40 );
+    /* , */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -97,5 +98,38 @@ letter-spacing: .5pxpx;
     height: 234px;
     width: 860px;
     background-color: #ffffff;
-}
+    padding: 16px 0px 24px 0px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 16px 16px;
+border-top: 1px solid #EEE;
+background: #FFF;
+    /* column-gap: 20px; */
 
+}
+.remaining_div_card{
+    height: 170px;
+    width: 200px;
+}
+.carousel_div{
+    height: 8px;
+    width: 860px;
+    margin-top: 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square1{
+    width: 48px;
+height: 8px;
+border-radius: 4px;
+background: #091431;
+}
+.sqare2{
+    width: 20px;
+height: 8px;
+border-radius: 4px;
+background: #D9D9D9;
+margin: 0 6px;
+}

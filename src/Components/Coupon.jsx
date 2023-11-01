@@ -1,5 +1,7 @@
 import React from "react";
 import "../style/Coupen.css";
+import image from "../assets/image 12.png"
+
 
 const Coupon = () => {
   return (
@@ -74,8 +76,68 @@ const Coupon = () => {
         </div>
 
         <div className="remaining_div">
+          <div style={{display:"flex",columnGap:"20px"}}>
+          <div className="remaining_div_card">
+            <div className="card_section">
+              <div className="card_section_top">
+                <img src={image} alt="" srcset="" />
+                <span className="text_card">Amazon</span>
+              </div>
+              <div className="card_section_bottom">
+                <span className="offer_text">Flat 30% Off</span>
+                <button className="grabbutton">GRAB NOW</button>
+              </div>
+            </div>
+          </div>
+          <div className="remaining_div_card">
+            <div className="card_section">
+              <div className="card_section_top">
+                <img src={image} alt="" srcset="" />
+                <span className="text_card">Amazon</span>
+              </div>
+              <div className="card_section_bottom">
+                <span className="offer_text">Flat 30% Off</span>
+                <button className="grabbutton">GRAB NOW</button>
+              </div>
+            </div>
+          </div><div className="remaining_div_card">
+            <div className="card_section">
+              <div className="card_section_top">
+                <img src={image} alt="" srcset="" />
+                <span className="text_card">Amazon</span>
+              </div>
+              <div className="card_section_bottom">
+                <span className="offer_text">Flat 30% Off</span>
+                <button className="grabbutton">GRAB NOW</button>
+              </div>
+            </div>
+          </div><div className="remaining_div_card">
+            <div className="card_section">
+              <div className="card_section_top">
+                <img src={image} alt="" srcset="" />
+                <span className="text_card">Amazon</span>
+              </div>
+              <div className="card_section_bottom">
+                <span className="offer_text">Flat 30% Off</span>
+                <button className="grabbutton">GRAB NOW</button>
+              </div>
+            </div>
+          </div>
+          </div>
+
+
+
+        <div className="carousel_div">
+
+          <div className="square1"></div>
+          <div className="sqare2"></div>
+          <div className="sqare2"></div>
 
         </div>
+
+          
+        </div>
+
       </div>
     </>
   );

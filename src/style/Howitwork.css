@@ -1,0 +1,111 @@
+@import url('https://fonts.cdnfonts.com/css/metropolis-2');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+.how_main{
+    height: 390px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+/* width: 1440px; */
+padding: 40px 0px;
+flex-direction: column;
+align-items: center;
+row-gap: 40px;
+
+}
+.how_main_heading{
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 860px;
+    padding: 0px 8px 12px 8px;
+    justify-content: center;
+    align-items: center;
+    margin:0 8px ;
+    /* background-color: rgb(178, 206, 197); */
+}
+.how_main_text{
+    color: #091431;
+    font-family: 'Metropolis', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.how_cards{
+    height: 234px;
+    width: 860px;
+    /* background-color: #FFFFFFD9; */
+    display: flex;
+    column-gap: 20px;
+    position: relative;
+    
+}
+.how_card_1{
+
+    display: flex;
+padding: 24px 16px;
+flex-direction: column;
+align-items: center;
+gap: 24px;
+flex: 1 0 0;
+border-radius: 16px;
+border: 1px solid #ECECEC;
+
+background: #FFF;
+
+}
+.how_card_2{
+    display: flex;
+padding: 24px 16px;
+flex-direction: column;
+align-items: center;
+gap: 24px;
+flex: 1 0 0;
+border-radius: 16px;
+border: 1px solid #ECECEC;
+
+background: #FFF;
+}
+.how_card_3{
+    display: flex;
+padding: 24px 16px;
+flex-direction: column;
+align-items: center;
+gap: 24px;
+flex: 1 0 0;
+border-radius: 16px;
+border: 1px solid #ECECEC;
+
+background: #FFF;
+
+}
+.icon_div{
+    width: 56px;
+    height: 56px;
+    display: flex;
+padding: 16px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 12px;
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 100%), #F01C21;
+}
+.signup_text{
+    color: #091431;
+text-align: center;
+font-family: 'Metropolis', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 162.5% */
+align-self: stretch;
+}
+.signup_contend{
+    color: #454749;
+text-align: center;
+font-family: 'Manrope', sans-serif;font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 171.429% */
+align-self: stretch;
+}
