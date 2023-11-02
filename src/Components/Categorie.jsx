@@ -23,10 +23,10 @@ const Categorie = () => {
                         <table style={{width:"100%",borderCollapse:"collapse"}}>
  
  <tr>
-   <th className='table'>Flight</th>
+   <th>Flight</th>
    <th>Bus</th>
-   <th><span className='table_content'>Entertainment</span></th>
-   <th><span className='table_content'>Jewellery</span></th>
+   <th>Entertainment</th>
+   <th>Jewellery</th>
  </tr>
  <tr>
    <th>Medicines</th>
@@ -35,35 +35,35 @@ const Categorie = () => {
    <th>Flowers</th>
    <th>Beauty</th>
  </tr> <tr>
-   <th>Medicines</th>
-   <th>Hosting</th>
+   <th>OTT</th>
+   <th>Bills</th>
 
-   <th>Flowers</th>
-   <th>Beauty</th>
+   <th>Kids</th>
+   <th>Travel</th>
  </tr> <tr>
-   <th>Medicines</th>
-   <th>Hosting</th>
+   <th>Food</th>
+   <th>Eyewear</th>
 
-   <th>Flowers</th>
-   <th>Beauty</th>
+   <th>Lifestyle</th>
+   <th>Kitchen</th>
  </tr><tr>
-   <th>Medicines</th>
-   <th>Hosting</th>
+   <th>Recharge</th>
+   <th>Electronics</th>
 
-   <th>Flowers</th>
-   <th>Beauty</th>
+   <th>Hotel</th>
+   <th>Footwear</th>
  </tr><tr>
-   <th>Medicines</th>
-   <th>Hosting</th>
+   <th>Lab</th>
+   <th>Education</th>
 
-   <th>Flowers</th>
-   <th>Beauty</th>
+   <th>Services</th>
+   <th>Furniture</th>
  </tr><tr>
-   <th>Medicines</th>
-   <th>Hosting</th>
+   <th>Fashion</th>
+   <th>Pizza</th>
 
-   <th>Flowers</th>
-   <th>Beauty</th>
+   <th>Bike</th>
+   <th>Novelties</th>
  </tr>
 </table>
 

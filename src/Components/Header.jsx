@@ -3,6 +3,7 @@ import Image from "../assets/logo.png"
 import "../style/Header.css"
 import search from "../assets/search.png"
 
+
 const Header = () => {
 
   return (
@@ -14,10 +15,11 @@ const Header = () => {
             <div>
                 <img src={Image} alt="" srcset="" />
             </div>
-            <div >
-                
-                <input type="text" className='textfield' placeholder={`${search}Search For brand, category, coupon`}/>
+            <div className='textfield' >
 
+              <img src={search}  alt="" srcset="" />
+                <span className='text_place'>Search For brand, category, coupon</span>
+               
             </div>
             <div className='buttondiv'>
 

@@ -3,7 +3,7 @@
 .main_coupen_div{
     width:100%;
     height: 480px;
-    background-image: linear-gradient(#DADADA,#DADADA40 );
+    background-image: linear-gradient(#DADADA40,#DADADA );
     /* , */
     display: flex;
     justify-content: center;

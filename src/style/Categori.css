@@ -9,6 +9,7 @@ justify-content: center;
 align-items: flex-start;
 /* background-color: #DFDFDF; */
 gap: 40px;
+
 }
 .category_sub_div{
     width: 860px;
@@ -17,14 +18,19 @@ gap: 40px;
 
     display: flex;
 }
+
+
 .category_sub_left_div{
     width: 367px;
-    /* background-color: bisque; */
     height: 100%;
     border-radius: 10px 0px 0px 10px;
-    background: url("../assets/fashionlady.png"), lightgray -133.766px -75.512px / 172.897% 122.112%  no-repeat;
+    background-image: url("../assets/fashionlady.png")  ;
+    background-repeat: no-repeat;
+    background-size: cover; 
     
 }
+
+
 .category_sub_right_div{
     width: 567px;    
     height: 100%;
@@ -47,6 +53,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+letter-spacing: 1px;
 }
 .category_sub_right_lower_div{
     /* display: grid;
@@ -85,8 +92,9 @@ flex: 1 0 0;
 color: #091431;
 text-align: center;
 font-family: 'Metropolis', sans-serif;
-font-size: 14px;
+font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+letter-spacing: 1px;
   }

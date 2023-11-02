@@ -6,7 +6,7 @@
 
     height: 493px;
     width: 100%;
-    background-image: linear-gradient(#DADADA,#DADADA40 );
+    background-image: linear-gradient(#DADADA40,#DADADA );
     /* #DADADA40, #DADADA */
     padding: 40px 0px;
 flex-direction: column;
